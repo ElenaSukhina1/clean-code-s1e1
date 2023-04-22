@@ -17,27 +17,27 @@
       <label for="new-task">Add Item</label>
       <div class="main__wrapper">
         <input id="new-task" class="main__task" type="text">
-        <button>Add</button>
+        <button class="main_button_add">Add</button>
       </div>
     </p>
-    <h3>Todo</h3>
-    <ul id="incompl-tasks">
-        <li>
+    <h3 class="main__header">Todo</h3>
+    <ul id="incompl-tasks" class="main__list">
+        <li class="main__list_items">
             <input type="checkbox"><label class="main__task">Pay Bills</label>
             <input type="text" class="main__task">
             <button class="main__button_edit">Edit</button>
             <button class="main__button_delete"><img src="./remove.svg"></button>
         </li>
-        <li class="editMode">
+        <li class="main__list_items editMode">
             <input type="checkbox"><label class="main__task">Go Shopping</label>
             <input type="text" value="Go Shopping" class="main__task">
             <button class="main__button_edit">Save</button>
             <button class="main__button_delete"><img src="./remove.svg"></button>
         </li>
     </ul>
-    <h3>Completed</h3>
-    <ul id="compl-tasks">
-        <li>
+    <h3 class="main__header">Completed</h3>
+    <ul id="compl-tasks" class="main__list">
+        <li class="main__list_items">
             <input type="checkbox" checked>
             <label class="main__task">See the Doctor</label>
             <input type="text" class="main__task">
